@@ -1,0 +1,18 @@
+{
+  "name": "mosquitto-acl-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliver Lorenz <mail@oliverlorenz.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "mosquitto-acl-parser": "^1.0.0"
+  },
+  "bin": {
+    "mosquitto_acl": "./cli.js"
+  }
+}
