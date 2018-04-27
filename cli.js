@@ -162,6 +162,4 @@ program
     console.log(macl.stringify(acl))
   })
 
-
-program.help()
 program.parse(process.argv);
