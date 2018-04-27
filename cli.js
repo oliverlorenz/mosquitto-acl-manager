@@ -40,7 +40,7 @@ function removeUser(acl, username) {
 }
 
 function getAcls(path) {
-    let acl = getAcls(options.aclFile)
+    let acl = macl.parse(readAclFile(path))
     if (!acl.users) {
         acl.users = {}
     }
